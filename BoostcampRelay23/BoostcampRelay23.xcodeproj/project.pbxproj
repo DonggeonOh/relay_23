@@ -17,10 +17,7 @@
 		37D53D2A24DD20420035B665 /* BoostcampRelay23UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D53D2924DD20420035B665 /* BoostcampRelay23UITests.swift */; };
 		3A2D752F24DD3D97009BB80C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D752E24DD3D97009BB80C /* Post.swift */; };
 		BD7187F224DD41360087A647 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7187F124DD41360087A647 /* DetailView.swift */; };
-		BD7187F424DD41640087A647 /* TestDataForDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7187F324DD41640087A647 /* TestDataForDetailView.swift */; };
 		DA8CF89324DD2794001679CC /* TableList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CF89224DD2794001679CC /* TableList.swift */; };
-		DA8CF89524DD2A24001679CC /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CF89424DD2A24001679CC /* test.swift */; };
-		DA8CF89724DD2CA1001679CC /* testView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CF89624DD2CA1001679CC /* testView.swift */; };
 		DA8CF89924DD47A6001679CC /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CF89824DD47A6001679CC /* Data.swift */; };
 /* End PBXBuildFile section */
 
@@ -58,10 +55,7 @@
 		37D53D2B24DD20420035B665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A2D752E24DD3D97009BB80C /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		BD7187F124DD41360087A647 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
-		BD7187F324DD41640087A647 /* TestDataForDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDataForDetailView.swift; sourceTree = "<group>"; };
 		DA8CF89224DD2794001679CC /* TableList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableList.swift; sourceTree = "<group>"; };
-		DA8CF89424DD2A24001679CC /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
-		DA8CF89624DD2CA1001679CC /* testView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testView.swift; sourceTree = "<group>"; };
 		DA8CF89824DD47A6001679CC /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -123,9 +117,6 @@
 				DA8CF89224DD2794001679CC /* TableList.swift */,
 				3A2D752E24DD3D97009BB80C /* Post.swift */,
 				BD7187F124DD41360087A647 /* DetailView.swift */,
-				BD7187F324DD41640087A647 /* TestDataForDetailView.swift */,
-				DA8CF89424DD2A24001679CC /* test.swift */,
-				DA8CF89624DD2CA1001679CC /* testView.swift */,
 				DA8CF89824DD47A6001679CC /* Data.swift */,
 			);
 			path = BoostcampRelay23;
@@ -291,11 +282,8 @@
 				37D53D0824DD20400035B665 /* AppDelegate.swift in Sources */,
 				DA8CF89924DD47A6001679CC /* Data.swift in Sources */,
 				BD7187F224DD41360087A647 /* DetailView.swift in Sources */,
-				BD7187F424DD41640087A647 /* TestDataForDetailView.swift in Sources */,
 				37D53D0A24DD20400035B665 /* SceneDelegate.swift in Sources */,
-				DA8CF89724DD2CA1001679CC /* testView.swift in Sources */,
 				DA8CF89324DD2794001679CC /* TableList.swift in Sources */,
-				DA8CF89524DD2A24001679CC /* test.swift in Sources */,
 				37D53D0C24DD20400035B665 /* ContentView.swift in Sources */,
 				3A2D752F24DD3D97009BB80C /* Post.swift in Sources */,
 			);
