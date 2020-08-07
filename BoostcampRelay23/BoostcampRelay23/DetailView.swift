@@ -28,20 +28,20 @@ struct SubFont: ViewModifier {
 
 // MARK:- BoardDetailView
 struct DetailView: View {
-  @State var isTranslate = false
-  var testData = TestDataForDetailView()
-  
+  @State private var isTranslate = false
+//  var testData = TestDataForDetailView()
+  var detailData: Post
   var body: some View {
     NavigationView {
       VStack {
         HStack {
           VStack(alignment: .leading, spacing: 5) {
-            Text("\(testData.title)")
+            Text("\(detailData.getTitle())")
               
               .modifier(TitleFont())
-            Text("작성자: \(testData.writer)")
+            Text("작성자: \(detailData.getAuthor())")
               .modifier(SubFont())
-            Text("작성날짜: \(testData.date)")
+            Text("작성날짜: \(detailData.getDateStr())")
               .modifier(SubFont())
           }
           .padding(.top, 15)
@@ -66,8 +66,9 @@ struct DetailView: View {
         Spacer()
         
         VStack {
-          Text(isTranslate ? "\(testData.tranlateContent)" : "\(testData.content)")
-            .layoutPriority(1)
+//          Text(isTranslate ? "\(testData.tranlateContent)" : "\(testData.content)")
+          Text("\(detailData.getContent())")
+          .layoutPriority(1)
         }
         .padding(.top, 10)
         .padding(.bottom, 20)
@@ -82,6 +83,6 @@ struct DetailView: View {
 
 struct DetailView_Previews: PreviewProvider {
   static var previews: some View {
-    DetailView()
+    DetailView(detailData: Post(id: 1, title: "Detail_Title", content: "Detail_Content", author: "gildong", date: "20.08.07"))
   }
 }
