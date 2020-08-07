@@ -17,6 +17,7 @@
 		37D53D2A24DD20420035B665 /* BoostcampRelay23UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D53D2924DD20420035B665 /* BoostcampRelay23UITests.swift */; };
 		5331D29B518981C71E890B08 /* Pods_BoostcampRelay23.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDFD1DEAAD9F4F45BA671403 /* Pods_BoostcampRelay23.framework */; };
 		7A6C0B5D758713ADD673C8E4 /* Pods_BoostcampRelay23Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C78E3A31A352552061B36A /* Pods_BoostcampRelay23Tests.framework */; };
+		9C3BEB5A24DDA1A1005378C1 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C3BEB5924DDA1A1005378C1 /* PostData.swift */; };
 		9FF1880BFB201E4A262A6252 /* Pods_BoostcampRelay23_BoostcampRelay23UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CF51C8F822CF41229A81E16 /* Pods_BoostcampRelay23_BoostcampRelay23UITests.framework */; };
 		FCC98E6B24DD519B00D3307C /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC98E6A24DD519B00D3307C /* Person.swift */; };
 /* End PBXBuildFile section */
@@ -59,6 +60,7 @@
 		6A1BAF679A116F1688234847 /* Pods-BoostcampRelay23.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostcampRelay23.release.xcconfig"; path = "Target Support Files/Pods-BoostcampRelay23/Pods-BoostcampRelay23.release.xcconfig"; sourceTree = "<group>"; };
 		76C78E3A31A352552061B36A /* Pods_BoostcampRelay23Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoostcampRelay23Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EF61438E4A4115489A92D4B /* Pods-BoostcampRelay23Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostcampRelay23Tests.release.xcconfig"; path = "Target Support Files/Pods-BoostcampRelay23Tests/Pods-BoostcampRelay23Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9C3BEB5924DDA1A1005378C1 /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		B3B616B58FC33F7311960231 /* Pods-BoostcampRelay23Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostcampRelay23Tests.debug.xcconfig"; path = "Target Support Files/Pods-BoostcampRelay23Tests/Pods-BoostcampRelay23Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D55270449148121C3FA25B6C /* Pods-BoostcampRelay23.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostcampRelay23.debug.xcconfig"; path = "Target Support Files/Pods-BoostcampRelay23/Pods-BoostcampRelay23.debug.xcconfig"; sourceTree = "<group>"; };
 		FCC98E6A24DD519B00D3307C /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
@@ -170,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				FCC98E6A24DD519B00D3307C /* Person.swift */,
+				9C3BEB5924DDA1A1005378C1 /* PostData.swift */,
 			);
 			path = db;
 			sourceTree = "<group>";
@@ -426,6 +429,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C3BEB5A24DDA1A1005378C1 /* PostData.swift in Sources */,
 				37D53D0824DD20400035B665 /* AppDelegate.swift in Sources */,
 				37D53D0A24DD20400035B665 /* SceneDelegate.swift in Sources */,
 				FCC98E6B24DD519B00D3307C /* Person.swift in Sources */,

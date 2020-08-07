@@ -8,6 +8,7 @@
 
 import UIKit
 import SwiftUI
+import RealmSwift
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
