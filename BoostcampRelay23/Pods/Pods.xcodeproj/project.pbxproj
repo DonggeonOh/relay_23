@@ -1,0 +1,763 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		084681575C8DAEC5E7FD2927E1359AC2 /* Pods-BoostcampRelay23-BoostcampRelay23UITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B5AC1D74D50FAA571FE32564BBAEB220 /* Pods-BoostcampRelay23-BoostcampRelay23UITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0A8733E4B44360CF2DAA2E2EBDD333BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		45CEBBAE9C01CB327BE4649A6FD2B704 /* Pods-BoostcampRelay23Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F03831956A70846F2131394BB3837345 /* Pods-BoostcampRelay23Tests-dummy.m */; };
+		50C22A63F7F1291EB07AD612EF33ED5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		8005A29EC84676F13836E3089E0444BB /* Pods-BoostcampRelay23-BoostcampRelay23UITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8098A9CE69D9E444E48637945B499C5 /* Pods-BoostcampRelay23-BoostcampRelay23UITests-dummy.m */; };
+		9C956ADEE6852AD4039854F9419331DA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		A7F2B36D82649E0DDADDB8D8914B8577 /* Pods-BoostcampRelay23Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6268ECA6B79CBD12CD9A4F46CF810981 /* Pods-BoostcampRelay23Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA2BFD14CDD00F592A8B34BCCB74F309 /* Pods-BoostcampRelay23-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D9396B810CDAE263CD0C92F00D4DB23 /* Pods-BoostcampRelay23-dummy.m */; };
+		D1987943A9FFFC6DBA4580B0F45987D3 /* Pods-BoostcampRelay23-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D8243510EBF81172AB692BBBF6C57C0A /* Pods-BoostcampRelay23-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78725EC5E6EC80D3B8E4C97A31692B65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9181E09CF227E0CF4D136E84E64FDC56;
+			remoteInfo = "Pods-BoostcampRelay23";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ACA3EDA80502C00A579F78C894076A5 /* Pods-BoostcampRelay23-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BoostcampRelay23-acknowledgements.plist"; sourceTree = "<group>"; };
+		1C96DF99BEB9BECADD41F19820490EA2 /* Pods-BoostcampRelay23-BoostcampRelay23UITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BoostcampRelay23-BoostcampRelay23UITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1D9396B810CDAE263CD0C92F00D4DB23 /* Pods-BoostcampRelay23-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BoostcampRelay23-dummy.m"; sourceTree = "<group>"; };
+		214D545F968498715834002EB8032F0F /* Pods-BoostcampRelay23-BoostcampRelay23UITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BoostcampRelay23-BoostcampRelay23UITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		315221D33E38DC382E47567D67E858EE /* Pods-BoostcampRelay23Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BoostcampRelay23Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3430EF7CEB8C8AA458E90B9BFADFD407 /* Pods-BoostcampRelay23.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BoostcampRelay23.modulemap"; sourceTree = "<group>"; };
+		42C5FCA7C0DAD5BE6D2EA34DE3EE6FC3 /* Pods-BoostcampRelay23-BoostcampRelay23UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoostcampRelay23-BoostcampRelay23UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		54D9C749896B12BD3510F0C78B446EA8 /* Pods_BoostcampRelay23_BoostcampRelay23UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BoostcampRelay23_BoostcampRelay23UITests.framework; path = "Pods-BoostcampRelay23-BoostcampRelay23UITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6268ECA6B79CBD12CD9A4F46CF810981 /* Pods-BoostcampRelay23Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BoostcampRelay23Tests-umbrella.h"; sourceTree = "<group>"; };
+		68670FF14E37A4F88F72F643E6CD8FFB /* Pods-BoostcampRelay23-BoostcampRelay23UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoostcampRelay23-BoostcampRelay23UITests.release.xcconfig"; sourceTree = "<group>"; };
+		71AF21980F779230706905F14C50A3C0 /* Pods-BoostcampRelay23-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BoostcampRelay23-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7E9B8C94BC0E2F51C22B10816A889477 /* Pods-BoostcampRelay23Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BoostcampRelay23Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7E9E7E58F7008246A7CF2070896F180D /* Pods-BoostcampRelay23Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoostcampRelay23Tests.release.xcconfig"; sourceTree = "<group>"; };
+		80D5DD42663DB84AD570B89D96F91DE1 /* Pods-BoostcampRelay23Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoostcampRelay23Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		912B550AC4CF51AE9AF3674855BE47EF /* Pods-BoostcampRelay23.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoostcampRelay23.release.xcconfig"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E3A9EF7CB4FB3CB83ADAEA2CF118E8E /* Pods-BoostcampRelay23-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BoostcampRelay23-Info.plist"; sourceTree = "<group>"; };
+		A009AE17F8C194E14FDC85B10B84AE77 /* Pods-BoostcampRelay23Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BoostcampRelay23Tests.modulemap"; sourceTree = "<group>"; };
+		ACF392237572D623E582DC8AFF1E9E3F /* Pods_BoostcampRelay23.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BoostcampRelay23.framework; path = "Pods-BoostcampRelay23.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFD9D36DABFEBD7A6BD6C5FC762BFD64 /* Pods-BoostcampRelay23Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BoostcampRelay23Tests-Info.plist"; sourceTree = "<group>"; };
+		B13D4DE251DECCD97F40206D3F181DC0 /* Pods-BoostcampRelay23.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoostcampRelay23.debug.xcconfig"; sourceTree = "<group>"; };
+		B5AC1D74D50FAA571FE32564BBAEB220 /* Pods-BoostcampRelay23-BoostcampRelay23UITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BoostcampRelay23-BoostcampRelay23UITests-umbrella.h"; sourceTree = "<group>"; };
+		B983BB02E4F30D336FF0BBEDD3FB021D /* Pods-BoostcampRelay23-BoostcampRelay23UITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BoostcampRelay23-BoostcampRelay23UITests.modulemap"; sourceTree = "<group>"; };
+		C92AF7DD2F35E324C4FABAC53D32C58B /* Pods-BoostcampRelay23-BoostcampRelay23UITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BoostcampRelay23-BoostcampRelay23UITests-Info.plist"; sourceTree = "<group>"; };
+		D8243510EBF81172AB692BBBF6C57C0A /* Pods-BoostcampRelay23-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BoostcampRelay23-umbrella.h"; sourceTree = "<group>"; };
+		F03831956A70846F2131394BB3837345 /* Pods-BoostcampRelay23Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BoostcampRelay23Tests-dummy.m"; sourceTree = "<group>"; };
+		F8098A9CE69D9E444E48637945B499C5 /* Pods-BoostcampRelay23-BoostcampRelay23UITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BoostcampRelay23-BoostcampRelay23UITests-dummy.m"; sourceTree = "<group>"; };
+		FF879578FD3C62E5500959B381EC783D /* Pods_BoostcampRelay23Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BoostcampRelay23Tests.framework; path = "Pods-BoostcampRelay23Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D7807583C0B4CF29C9AEF0C1F61DE5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50C22A63F7F1291EB07AD612EF33ED5B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9ADD420BF82242F9EF6C97B6AFF1E01F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C956ADEE6852AD4039854F9419331DA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A122FDFC2A138CBA14FF0ED58A6F9CC1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A8733E4B44360CF2DAA2E2EBDD333BC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E51AAE04976BEB6ADBD1FA9ADE4F33B /* Pods-BoostcampRelay23Tests */ = {
+			isa = PBXGroup;
+			children = (
+				A009AE17F8C194E14FDC85B10B84AE77 /* Pods-BoostcampRelay23Tests.modulemap */,
+				315221D33E38DC382E47567D67E858EE /* Pods-BoostcampRelay23Tests-acknowledgements.markdown */,
+				7E9B8C94BC0E2F51C22B10816A889477 /* Pods-BoostcampRelay23Tests-acknowledgements.plist */,
+				F03831956A70846F2131394BB3837345 /* Pods-BoostcampRelay23Tests-dummy.m */,
+				AFD9D36DABFEBD7A6BD6C5FC762BFD64 /* Pods-BoostcampRelay23Tests-Info.plist */,
+				6268ECA6B79CBD12CD9A4F46CF810981 /* Pods-BoostcampRelay23Tests-umbrella.h */,
+				80D5DD42663DB84AD570B89D96F91DE1 /* Pods-BoostcampRelay23Tests.debug.xcconfig */,
+				7E9E7E58F7008246A7CF2070896F180D /* Pods-BoostcampRelay23Tests.release.xcconfig */,
+			);
+			name = "Pods-BoostcampRelay23Tests";
+			path = "Target Support Files/Pods-BoostcampRelay23Tests";
+			sourceTree = "<group>";
+		};
+		4E0A76D989A74CDCDDD13C240CC60A5A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACF392237572D623E582DC8AFF1E9E3F /* Pods_BoostcampRelay23.framework */,
+				54D9C749896B12BD3510F0C78B446EA8 /* Pods_BoostcampRelay23_BoostcampRelay23UITests.framework */,
+				FF879578FD3C62E5500959B381EC783D /* Pods_BoostcampRelay23Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		591C2BE1FFBCA629D6EEBB0A25BB194E /* Pods-BoostcampRelay23 */ = {
+			isa = PBXGroup;
+			children = (
+				3430EF7CEB8C8AA458E90B9BFADFD407 /* Pods-BoostcampRelay23.modulemap */,
+				71AF21980F779230706905F14C50A3C0 /* Pods-BoostcampRelay23-acknowledgements.markdown */,
+				0ACA3EDA80502C00A579F78C894076A5 /* Pods-BoostcampRelay23-acknowledgements.plist */,
+				1D9396B810CDAE263CD0C92F00D4DB23 /* Pods-BoostcampRelay23-dummy.m */,
+				9E3A9EF7CB4FB3CB83ADAEA2CF118E8E /* Pods-BoostcampRelay23-Info.plist */,
+				D8243510EBF81172AB692BBBF6C57C0A /* Pods-BoostcampRelay23-umbrella.h */,
+				B13D4DE251DECCD97F40206D3F181DC0 /* Pods-BoostcampRelay23.debug.xcconfig */,
+				912B550AC4CF51AE9AF3674855BE47EF /* Pods-BoostcampRelay23.release.xcconfig */,
+			);
+			name = "Pods-BoostcampRelay23";
+			path = "Target Support Files/Pods-BoostcampRelay23";
+			sourceTree = "<group>";
+		};
+		B0FFD818B055BBED3CB11B731C92CD3E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				591C2BE1FFBCA629D6EEBB0A25BB194E /* Pods-BoostcampRelay23 */,
+				BAFDD0A4ED8F6B0988DB3E42E0B32DB9 /* Pods-BoostcampRelay23-BoostcampRelay23UITests */,
+				2E51AAE04976BEB6ADBD1FA9ADE4F33B /* Pods-BoostcampRelay23Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BAFDD0A4ED8F6B0988DB3E42E0B32DB9 /* Pods-BoostcampRelay23-BoostcampRelay23UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B983BB02E4F30D336FF0BBEDD3FB021D /* Pods-BoostcampRelay23-BoostcampRelay23UITests.modulemap */,
+				214D545F968498715834002EB8032F0F /* Pods-BoostcampRelay23-BoostcampRelay23UITests-acknowledgements.markdown */,
+				1C96DF99BEB9BECADD41F19820490EA2 /* Pods-BoostcampRelay23-BoostcampRelay23UITests-acknowledgements.plist */,
+				F8098A9CE69D9E444E48637945B499C5 /* Pods-BoostcampRelay23-BoostcampRelay23UITests-dummy.m */,
+				C92AF7DD2F35E324C4FABAC53D32C58B /* Pods-BoostcampRelay23-BoostcampRelay23UITests-Info.plist */,
+				B5AC1D74D50FAA571FE32564BBAEB220 /* Pods-BoostcampRelay23-BoostcampRelay23UITests-umbrella.h */,
+				42C5FCA7C0DAD5BE6D2EA34DE3EE6FC3 /* Pods-BoostcampRelay23-BoostcampRelay23UITests.debug.xcconfig */,
+				68670FF14E37A4F88F72F643E6CD8FFB /* Pods-BoostcampRelay23-BoostcampRelay23UITests.release.xcconfig */,
+			);
+			name = "Pods-BoostcampRelay23-BoostcampRelay23UITests";
+			path = "Target Support Files/Pods-BoostcampRelay23-BoostcampRelay23UITests";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				4E0A76D989A74CDCDDD13C240CC60A5A /* Products */,
+				B0FFD818B055BBED3CB11B731C92CD3E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1A90F5025E57609A9DEAB5576E828311 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				084681575C8DAEC5E7FD2927E1359AC2 /* Pods-BoostcampRelay23-BoostcampRelay23UITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3028D4186318B8FC07DE54A7AED5D3CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F2B36D82649E0DDADDB8D8914B8577 /* Pods-BoostcampRelay23Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F85748F1231CD5A02FF65DDA022B2F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1987943A9FFFC6DBA4580B0F45987D3 /* Pods-BoostcampRelay23-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3673118CBA2305A726E4C83E7DFEA126 /* Pods-BoostcampRelay23Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77E9B6E70B6C4324EAA13BA6192C1A4F /* Build configuration list for PBXNativeTarget "Pods-BoostcampRelay23Tests" */;
+			buildPhases = (
+				3028D4186318B8FC07DE54A7AED5D3CC /* Headers */,
+				2DF7D4B928D59DD820549DF47C575071 /* Sources */,
+				9ADD420BF82242F9EF6C97B6AFF1E01F /* Frameworks */,
+				1F77352BA1DD1C56C010677DA40C95B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F1CBCB509BD6FBA2F3514E4AB320AA8 /* PBXTargetDependency */,
+			);
+			name = "Pods-BoostcampRelay23Tests";
+			productName = "Pods-BoostcampRelay23Tests";
+			productReference = FF879578FD3C62E5500959B381EC783D /* Pods_BoostcampRelay23Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8460AAE1C8FC34A68297EAD253F01311 /* Pods-BoostcampRelay23-BoostcampRelay23UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32037436699C279C80EA106C120E68A4 /* Build configuration list for PBXNativeTarget "Pods-BoostcampRelay23-BoostcampRelay23UITests" */;
+			buildPhases = (
+				1A90F5025E57609A9DEAB5576E828311 /* Headers */,
+				09D1254B02E0E76D851E6324DD8867FC /* Sources */,
+				A122FDFC2A138CBA14FF0ED58A6F9CC1 /* Frameworks */,
+				240072EF9F990B91B64C79DE12850A68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BoostcampRelay23-BoostcampRelay23UITests";
+			productName = "Pods-BoostcampRelay23-BoostcampRelay23UITests";
+			productReference = 54D9C749896B12BD3510F0C78B446EA8 /* Pods_BoostcampRelay23_BoostcampRelay23UITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9181E09CF227E0CF4D136E84E64FDC56 /* Pods-BoostcampRelay23 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03707AA2F9E53C47CFF59310BE19984F /* Build configuration list for PBXNativeTarget "Pods-BoostcampRelay23" */;
+			buildPhases = (
+				F3F85748F1231CD5A02FF65DDA022B2F /* Headers */,
+				22039EA01777D4E9DA95F24D440009F3 /* Sources */,
+				1D7807583C0B4CF29C9AEF0C1F61DE5A /* Frameworks */,
+				713846A9716D2FDC24C8B1D8D924E654 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BoostcampRelay23";
+			productName = "Pods-BoostcampRelay23";
+			productReference = ACF392237572D623E582DC8AFF1E9E3F /* Pods_BoostcampRelay23.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4E0A76D989A74CDCDDD13C240CC60A5A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9181E09CF227E0CF4D136E84E64FDC56 /* Pods-BoostcampRelay23 */,
+				8460AAE1C8FC34A68297EAD253F01311 /* Pods-BoostcampRelay23-BoostcampRelay23UITests */,
+				3673118CBA2305A726E4C83E7DFEA126 /* Pods-BoostcampRelay23Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F77352BA1DD1C56C010677DA40C95B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		240072EF9F990B91B64C79DE12850A68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		713846A9716D2FDC24C8B1D8D924E654 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09D1254B02E0E76D851E6324DD8867FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8005A29EC84676F13836E3089E0444BB /* Pods-BoostcampRelay23-BoostcampRelay23UITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22039EA01777D4E9DA95F24D440009F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA2BFD14CDD00F592A8B34BCCB74F309 /* Pods-BoostcampRelay23-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DF7D4B928D59DD820549DF47C575071 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45CEBBAE9C01CB327BE4649A6FD2B704 /* Pods-BoostcampRelay23Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F1CBCB509BD6FBA2F3514E4AB320AA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-BoostcampRelay23";
+			target = 9181E09CF227E0CF4D136E84E64FDC56 /* Pods-BoostcampRelay23 */;
+			targetProxy = 78725EC5E6EC80D3B8E4C97A31692B65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05BE182DFA9C14115AE6BA3A1588C6AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 912B550AC4CF51AE9AF3674855BE47EF /* Pods-BoostcampRelay23.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BoostcampRelay23/Pods-BoostcampRelay23-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BoostcampRelay23/Pods-BoostcampRelay23.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		13967C5C8F4B10B3EE4D6C208A0A7BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		174C9AC3F5BC7C9E98C85DBF1D700866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80D5DD42663DB84AD570B89D96F91DE1 /* Pods-BoostcampRelay23Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BoostcampRelay23Tests/Pods-BoostcampRelay23Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BoostcampRelay23Tests/Pods-BoostcampRelay23Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2D230D139C707A93C9B8786775173C48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B13D4DE251DECCD97F40206D3F181DC0 /* Pods-BoostcampRelay23.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BoostcampRelay23/Pods-BoostcampRelay23-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BoostcampRelay23/Pods-BoostcampRelay23.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		375C165A31DA448136FB830A3F74FF55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68670FF14E37A4F88F72F643E6CD8FFB /* Pods-BoostcampRelay23-BoostcampRelay23UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BoostcampRelay23-BoostcampRelay23UITests/Pods-BoostcampRelay23-BoostcampRelay23UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BoostcampRelay23-BoostcampRelay23UITests/Pods-BoostcampRelay23-BoostcampRelay23UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5CE8FA19684FCCA2E1D556D613D68253 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E9E7E58F7008246A7CF2070896F180D /* Pods-BoostcampRelay23Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BoostcampRelay23Tests/Pods-BoostcampRelay23Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BoostcampRelay23Tests/Pods-BoostcampRelay23Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		78DA5C01F1AAB8811054D6F8FC96A748 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42C5FCA7C0DAD5BE6D2EA34DE3EE6FC3 /* Pods-BoostcampRelay23-BoostcampRelay23UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-BoostcampRelay23-BoostcampRelay23UITests/Pods-BoostcampRelay23-BoostcampRelay23UITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BoostcampRelay23-BoostcampRelay23UITests/Pods-BoostcampRelay23-BoostcampRelay23UITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		871B6E28ABA34DAE69824AB9D22D3B7D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03707AA2F9E53C47CFF59310BE19984F /* Build configuration list for PBXNativeTarget "Pods-BoostcampRelay23" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D230D139C707A93C9B8786775173C48 /* Debug */,
+				05BE182DFA9C14115AE6BA3A1588C6AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32037436699C279C80EA106C120E68A4 /* Build configuration list for PBXNativeTarget "Pods-BoostcampRelay23-BoostcampRelay23UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78DA5C01F1AAB8811054D6F8FC96A748 /* Debug */,
+				375C165A31DA448136FB830A3F74FF55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13967C5C8F4B10B3EE4D6C208A0A7BEB /* Debug */,
+				871B6E28ABA34DAE69824AB9D22D3B7D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77E9B6E70B6C4324EAA13BA6192C1A4F /* Build configuration list for PBXNativeTarget "Pods-BoostcampRelay23Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				174C9AC3F5BC7C9E98C85DBF1D700866 /* Debug */,
+				5CE8FA19684FCCA2E1D556D613D68253 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
