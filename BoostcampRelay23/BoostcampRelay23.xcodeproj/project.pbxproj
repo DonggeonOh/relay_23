@@ -15,6 +15,9 @@
 		37D53D1424DD20420035B665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D53D1224DD20420035B665 /* LaunchScreen.storyboard */; };
 		37D53D1F24DD20420035B665 /* BoostcampRelay23Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D53D1E24DD20420035B665 /* BoostcampRelay23Tests.swift */; };
 		37D53D2A24DD20420035B665 /* BoostcampRelay23UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D53D2924DD20420035B665 /* BoostcampRelay23UITests.swift */; };
+		DA8CF89324DD2794001679CC /* TableList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CF89224DD2794001679CC /* TableList.swift */; };
+		DA8CF89524DD2A24001679CC /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CF89424DD2A24001679CC /* test.swift */; };
+		DA8CF89724DD2CA1001679CC /* testView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CF89624DD2CA1001679CC /* testView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		37D53D2524DD20420035B665 /* BoostcampRelay23UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoostcampRelay23UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D53D2924DD20420035B665 /* BoostcampRelay23UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoostcampRelay23UITests.swift; sourceTree = "<group>"; };
 		37D53D2B24DD20420035B665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA8CF89224DD2794001679CC /* TableList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableList.swift; sourceTree = "<group>"; };
+		DA8CF89424DD2A24001679CC /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		DA8CF89624DD2CA1001679CC /* testView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 				37D53D1224DD20420035B665 /* LaunchScreen.storyboard */,
 				37D53D1524DD20420035B665 /* Info.plist */,
 				37D53D0F24DD20420035B665 /* Preview Content */,
+				DA8CF89224DD2794001679CC /* TableList.swift */,
+				DA8CF89424DD2A24001679CC /* test.swift */,
+				DA8CF89624DD2CA1001679CC /* testView.swift */,
 			);
 			path = BoostcampRelay23;
 			sourceTree = "<group>";
@@ -269,6 +278,9 @@
 			files = (
 				37D53D0824DD20400035B665 /* AppDelegate.swift in Sources */,
 				37D53D0A24DD20400035B665 /* SceneDelegate.swift in Sources */,
+				DA8CF89724DD2CA1001679CC /* testView.swift in Sources */,
+				DA8CF89324DD2794001679CC /* TableList.swift in Sources */,
+				DA8CF89524DD2A24001679CC /* test.swift in Sources */,
 				37D53D0C24DD20400035B665 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
