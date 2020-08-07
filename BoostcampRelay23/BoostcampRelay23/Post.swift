@@ -8,8 +8,9 @@
 
 import Foundation
 
-class Post {
-    private let id: Int
+class Post: Identifiable {
+    internal let id: UUID = UUID()
+    private let postId: Int
     private let title: String
     private let content: String
     private let author: String
@@ -20,7 +21,7 @@ class Post {
 //    private let date: Date
     
     init(id: Int = 0, title: String = "title", content: String = "content", author: String = "author", date: String = "date") {
-        self.id = id
+        self.postId = id
         self.title = title
         self.content = content
         self.author = author
@@ -36,7 +37,7 @@ class Post {
 //    }
 
     func getId() -> Int {
-        return self.id
+        return self.postId
     }
     func getTitle() -> String {
         return self.title
