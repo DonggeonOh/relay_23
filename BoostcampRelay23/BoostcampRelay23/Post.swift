@@ -34,5 +34,43 @@ class Post {
 //        self.author = author
 //        self.date = date
 //    }
-    
+
+    func getId() -> Int {
+        return self.id
+    }
+    func getTitle() -> String {
+        return self.title
+    }
+    func getContent() -> String {
+        return self.content
+    }
+    func getAuthor() -> String {
+        return self.author
+    }
+    func getDateStr() -> String {
+        return self.date
+    }
+    func getDateFromStr() -> Date { // String to Date
+        // 만약 2020. 08. 07 형태의 문자열이라면
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy. MM. dd"   // 여기서 형식을 맞춰주면 됨
+        dateFormatter.timeZone = NSTimeZone(name: "UTC") as TimeZone?
+
+        return dateFormatter.date(from: self.date)!
+    }
+
+    //    func getDate() -> Date {
+    //        return self.date
+    //    }
+    //    func getDateToStr() -> String {   // Date to String
+    //        let dateFormatter = DateFormatter()
+    //        dateFormatter.dateFormat = "YYYY. MM. DD"
+    //        dateFormatter.locale = Locale(identifier: "ko_KR")
+    //        return dateFormatter.string(from: self.date)) // 2020. 08. 07
+    //
+    //    func getGlobalDateToStr() -> String { // Global Date to String
+    //        let dateFormatter = DateFormatter()
+    //        dateFormatter.dateFormat = "MMM DD, YYYY"
+    //        return dateFormatter.string(from: self.date) // Aug 7, 2020
+    //    }
 }
