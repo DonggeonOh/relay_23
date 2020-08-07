@@ -14,7 +14,7 @@ struct TableList: View {
     var body: some View {
         NavigationView{
             List(listData) { item in
-                NavigationLink(destination: DetailView(post: item)){
+                NavigationLink(destination: DetailView(detailData: item)){
                     VStack(alignment: .leading) {
                         Spacer()
                         Text(item.getTitle()).bold().font(.title)
