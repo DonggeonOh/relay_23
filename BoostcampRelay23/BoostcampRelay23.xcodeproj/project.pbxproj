@@ -15,10 +15,12 @@
 		37D53D1424DD20420035B665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D53D1224DD20420035B665 /* LaunchScreen.storyboard */; };
 		37D53D1F24DD20420035B665 /* BoostcampRelay23Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D53D1E24DD20420035B665 /* BoostcampRelay23Tests.swift */; };
 		37D53D2A24DD20420035B665 /* BoostcampRelay23UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D53D2924DD20420035B665 /* BoostcampRelay23UITests.swift */; };
+		3A2D752F24DD3D97009BB80C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D752E24DD3D97009BB80C /* Post.swift */; };
+		BD7187F224DD41360087A647 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7187F124DD41360087A647 /* DetailView.swift */; };
+		BD7187F424DD41640087A647 /* TestDataForDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7187F324DD41640087A647 /* TestDataForDetailView.swift */; };
 		DA8CF89324DD2794001679CC /* TableList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CF89224DD2794001679CC /* TableList.swift */; };
 		DA8CF89524DD2A24001679CC /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CF89424DD2A24001679CC /* test.swift */; };
 		DA8CF89724DD2CA1001679CC /* testView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CF89624DD2CA1001679CC /* testView.swift */; };
-		3A2D752F24DD3D97009BB80C /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D752E24DD3D97009BB80C /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,10 +55,12 @@
 		37D53D2524DD20420035B665 /* BoostcampRelay23UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BoostcampRelay23UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D53D2924DD20420035B665 /* BoostcampRelay23UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoostcampRelay23UITests.swift; sourceTree = "<group>"; };
 		37D53D2B24DD20420035B665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3A2D752E24DD3D97009BB80C /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		BD7187F124DD41360087A647 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		BD7187F324DD41640087A647 /* TestDataForDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDataForDetailView.swift; sourceTree = "<group>"; };
 		DA8CF89224DD2794001679CC /* TableList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableList.swift; sourceTree = "<group>"; };
 		DA8CF89424DD2A24001679CC /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		DA8CF89624DD2CA1001679CC /* testView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testView.swift; sourceTree = "<group>"; };
-		3A2D752E24DD3D97009BB80C /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,8 @@
 				37D53D0F24DD20420035B665 /* Preview Content */,
 				DA8CF89224DD2794001679CC /* TableList.swift */,
 				DA8CF89424DD2A24001679CC /* test.swift */,
+				BD7187F124DD41360087A647 /* DetailView.swift */,
+				BD7187F324DD41640087A647 /* TestDataForDetailView.swift */,
 				DA8CF89624DD2CA1001679CC /* testView.swift */,
 			);
 			path = BoostcampRelay23;
@@ -280,6 +286,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				37D53D0824DD20400035B665 /* AppDelegate.swift in Sources */,
+				BD7187F224DD41360087A647 /* DetailView.swift in Sources */,
+				BD7187F424DD41640087A647 /* TestDataForDetailView.swift in Sources */,
 				37D53D0A24DD20400035B665 /* SceneDelegate.swift in Sources */,
 				DA8CF89724DD2CA1001679CC /* testView.swift in Sources */,
 				DA8CF89324DD2794001679CC /* TableList.swift in Sources */,
