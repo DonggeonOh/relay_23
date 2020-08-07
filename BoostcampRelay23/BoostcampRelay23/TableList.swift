@@ -9,17 +9,18 @@
 import SwiftUI
 
 struct TableList: View {
-    var listData: [Test] = [Test(title: "Title1", author: "cho"), Test(title: "Title2", author: "cho")]
+//    var listData: [Test] = [Test(title: "Title1", author: "cho"), Test(title: "Title2", author: "cho")]
+
     var body: some View {
         NavigationView{
             List(listData) { item in
-                NavigationLink(destination: testView()){
+                NavigationLink(destination: DetailView(post: item)){
                     VStack(alignment: .leading) {
                         Spacer()
-                        Text(item.title).bold().font(.title)
+                        Text(item.getTitle()).bold().font(.title)
                         HStack {
                             Text("작성자 : ")
-                            Text(item.author)
+                            Text(item.getAuthor())
                         }
                         Spacer()
                     }

@@ -21,6 +21,7 @@
 		DA8CF89324DD2794001679CC /* TableList.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CF89224DD2794001679CC /* TableList.swift */; };
 		DA8CF89524DD2A24001679CC /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CF89424DD2A24001679CC /* test.swift */; };
 		DA8CF89724DD2CA1001679CC /* testView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CF89624DD2CA1001679CC /* testView.swift */; };
+		DA8CF89924DD47A6001679CC /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8CF89824DD47A6001679CC /* Data.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		DA8CF89224DD2794001679CC /* TableList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableList.swift; sourceTree = "<group>"; };
 		DA8CF89424DD2A24001679CC /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
 		DA8CF89624DD2CA1001679CC /* testView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testView.swift; sourceTree = "<group>"; };
+		DA8CF89824DD47A6001679CC /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +113,6 @@
 		37D53D0624DD20400035B665 /* BoostcampRelay23 */ = {
 			isa = PBXGroup;
 			children = (
-				3A2D752E24DD3D97009BB80C /* Post.swift */,
 				37D53D0724DD20400035B665 /* AppDelegate.swift */,
 				37D53D0924DD20400035B665 /* SceneDelegate.swift */,
 				37D53D0B24DD20400035B665 /* ContentView.swift */,
@@ -120,10 +121,12 @@
 				37D53D1524DD20420035B665 /* Info.plist */,
 				37D53D0F24DD20420035B665 /* Preview Content */,
 				DA8CF89224DD2794001679CC /* TableList.swift */,
-				DA8CF89424DD2A24001679CC /* test.swift */,
+				3A2D752E24DD3D97009BB80C /* Post.swift */,
 				BD7187F124DD41360087A647 /* DetailView.swift */,
 				BD7187F324DD41640087A647 /* TestDataForDetailView.swift */,
+				DA8CF89424DD2A24001679CC /* test.swift */,
 				DA8CF89624DD2CA1001679CC /* testView.swift */,
+				DA8CF89824DD47A6001679CC /* Data.swift */,
 			);
 			path = BoostcampRelay23;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37D53D0824DD20400035B665 /* AppDelegate.swift in Sources */,
+				DA8CF89924DD47A6001679CC /* Data.swift in Sources */,
 				BD7187F224DD41360087A647 /* DetailView.swift in Sources */,
 				BD7187F424DD41640087A647 /* TestDataForDetailView.swift in Sources */,
 				37D53D0A24DD20400035B665 /* SceneDelegate.swift in Sources */,

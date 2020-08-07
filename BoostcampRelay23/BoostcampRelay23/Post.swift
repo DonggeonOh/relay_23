@@ -15,6 +15,7 @@ class Post: Identifiable {
     private let content: String
     private let author: String
     private let date: String
+    private var translatedContent: String
     
     // ** 일단 String형태로 date가 들어온다고 가정하고 만들었습니다.
     // ** Date 객체로 들어올 경우 주석을 해제하고 사용하면 됩니다.
@@ -26,6 +27,7 @@ class Post: Identifiable {
         self.content = content
         self.author = author
         self.date = date
+        self.translatedContent = ""
     }
     //** Date일 경우
 //    init(id: Int = 0, title: String = "title", content: String = "content", author: String = "author", date: Date = Date()) {
@@ -58,6 +60,9 @@ class Post: Identifiable {
         dateFormatter.timeZone = NSTimeZone(name: "UTC") as TimeZone?
 
         return dateFormatter.date(from: self.date)!
+    }
+    func getTranslatedContent() -> String {
+        return translatedContent
     }
 
     //    func getDate() -> Date {
