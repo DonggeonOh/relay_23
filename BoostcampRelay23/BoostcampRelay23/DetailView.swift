@@ -27,7 +27,7 @@ struct SubFont: ViewModifier {
 }
 
 // MARK:- BoardDetailView
-struct BoardDetailView: View {
+struct DetailView: View {
   @State var isTranslate = false
   var testData = TestDataForDetailView()
   
