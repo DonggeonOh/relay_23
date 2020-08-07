@@ -16,6 +16,7 @@
 		37D53D1424DD20420035B665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D53D1224DD20420035B665 /* LaunchScreen.storyboard */; };
 		37D53D1F24DD20420035B665 /* BoostcampRelay23Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D53D1E24DD20420035B665 /* BoostcampRelay23Tests.swift */; };
 		37D53D2A24DD20420035B665 /* BoostcampRelay23UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37D53D2924DD20420035B665 /* BoostcampRelay23UITests.swift */; };
+		9646721724DD3F3500888378 /* TranslationAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9646721624DD3F3500888378 /* TranslationAPI.swift */; };
 		D54DF7B1C19D5C92145B3928 /* Pods_BoostcampRelay23_BoostcampRelay23UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C9287F6E41FFF9C844A8D75 /* Pods_BoostcampRelay23_BoostcampRelay23UITests.framework */; };
 		D5A293BE3151361C4EA79A25 /* Pods_BoostcampRelay23Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F5F8C46DA63DCD0F850A4FB5 /* Pods_BoostcampRelay23Tests.framework */; };
 /* End PBXBuildFile section */
@@ -56,6 +57,7 @@
 		7713FC2F0EB74C0529028395 /* Pods-BoostcampRelay23-BoostcampRelay23UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostcampRelay23-BoostcampRelay23UITests.release.xcconfig"; path = "Target Support Files/Pods-BoostcampRelay23-BoostcampRelay23UITests/Pods-BoostcampRelay23-BoostcampRelay23UITests.release.xcconfig"; sourceTree = "<group>"; };
 		8C9287F6E41FFF9C844A8D75 /* Pods_BoostcampRelay23_BoostcampRelay23UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoostcampRelay23_BoostcampRelay23UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EE2CE38CFF03F0629D4F707 /* Pods-BoostcampRelay23-BoostcampRelay23UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostcampRelay23-BoostcampRelay23UITests.debug.xcconfig"; path = "Target Support Files/Pods-BoostcampRelay23-BoostcampRelay23UITests/Pods-BoostcampRelay23-BoostcampRelay23UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9646721624DD3F3500888378 /* TranslationAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationAPI.swift; sourceTree = "<group>"; };
 		98706003DB6A11B9E20464AA /* Pods-BoostcampRelay23.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostcampRelay23.debug.xcconfig"; path = "Target Support Files/Pods-BoostcampRelay23/Pods-BoostcampRelay23.debug.xcconfig"; sourceTree = "<group>"; };
 		A287545D11E1D8D080139D09 /* Pods-BoostcampRelay23Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BoostcampRelay23Tests.release.xcconfig"; path = "Target Support Files/Pods-BoostcampRelay23Tests/Pods-BoostcampRelay23Tests.release.xcconfig"; sourceTree = "<group>"; };
 		BC3C1E2A25DF7110D25008D8 /* Pods_BoostcampRelay23.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BoostcampRelay23.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +118,7 @@
 		37D53D0624DD20400035B665 /* BoostcampRelay23 */ = {
 			isa = PBXGroup;
 			children = (
+				9646721524DD3F1000888378 /* TranslationAPI */,
 				FC36C40724DD285D00DBDDF4 /* realm */,
 				37D53D0724DD20400035B665 /* AppDelegate.swift */,
 				37D53D0924DD20400035B665 /* SceneDelegate.swift */,
@@ -164,7 +167,6 @@
 				2CFCE38440181308004A7738 /* Pods-BoostcampRelay23Tests.debug.xcconfig */,
 				A287545D11E1D8D080139D09 /* Pods-BoostcampRelay23Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -176,6 +178,14 @@
 				F5F8C46DA63DCD0F850A4FB5 /* Pods_BoostcampRelay23Tests.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9646721524DD3F1000888378 /* TranslationAPI */ = {
+			isa = PBXGroup;
+			children = (
+				9646721624DD3F3500888378 /* TranslationAPI.swift */,
+			);
+			path = TranslationAPI;
 			sourceTree = "<group>";
 		};
 		FC36C40724DD285D00DBDDF4 /* realm */ = {
@@ -388,6 +398,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9646721724DD3F3500888378 /* TranslationAPI.swift in Sources */,
 				37D53D0824DD20400035B665 /* AppDelegate.swift in Sources */,
 				37D53D0A24DD20400035B665 /* SceneDelegate.swift in Sources */,
 				37D53D0C24DD20400035B665 /* ContentView.swift in Sources */,
