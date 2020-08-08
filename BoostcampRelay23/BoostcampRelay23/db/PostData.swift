@@ -24,6 +24,7 @@ class PostData: Object{
 
 
 //내부 DB파일 주소 출력
+//일단 출력만 되게 해놓았습니다. 반환시 fileURL의 타입은 URL? 입니다
 func getDBFileURL(){
     let _ = try! Realm()
     
@@ -34,7 +35,8 @@ func getDBFileURL(){
 
 
 
-//Create
+//Create. id, Datasms 자동생성 입니다.
+//getDate, createClass 메소드는 DBUtillity에 있습니다.
 func createPost(title:String, content:String, author: String)
 {
     do{
@@ -50,62 +52,32 @@ func createPost(title:String, content:String, author: String)
     }
 }
 
-func createClass(title:String, content:String, author: String, date: String) -> PostData
-{
-    let post = PostData()
-    post.id = getId()
-    post.content = content
-    post.author = author
-    post.title = title
-    post.date = date
-    return post
-}
-
-//Id 생성 최신글의 Id에 +1. 중간 글 삭제시 재정렬 없음.
-func getId() -> Int{
-    let realm = try! Realm()
-    var Id = 0
-    let lastId = realm.objects(PostData.self)
-    
-    if lastId.count != 0 {
-        Id = lastId[lastId.count - 1].id + 1
-    }
-    
-    return Id
-}
-
-//날짜 생성.
-func getDate() -> String{
-    let dateFormatter = DateFormatter()
-    dateFormatter.dateFormat = "yyyy-MM-dd"
-    let date = dateFormatter.string(from: Date())
-    return date
-}
 
 
 
-
-//Read
-func readPost(id: Int) -> Results<PostData>{
+//Read. id로 PostData를 찾아 배열에 담아 받환합니다.
+func readPost(id: Int) -> Array<PostData>{
     let realm = try! Realm()
     let post = realm.objects(PostData.self).filter("id == \(id)")
+    let postArray = post.toArray(ofType: PostData.self)
 
-    print(post)
-    return post
+    print(postArray)
+    return postArray
 }
 
 
 //Read List. 글목록 전부 반환. 배열처럼 인덱스로 접근 가능. 배열은 아니라고 합니다.
-func readPostList() -> Results<PostData> {
+func readPostList() -> Array<PostData> {
     let realm = try! Realm()
     let readAll = realm.objects(PostData.self)
+    let PostArray = readAll.toArray(ofType: PostData.self)
     
-    print(readAll)
-    return readAll
+    print(PostArray)
+    return PostArray
 }
 
 
-//Delete
+//Delete. Id로 글을 지우는 방식입니다. 삭제할 떄 현재 글의 id값을 넘겨주어야 합니다.
 func Delete(id: Int){
     let realm = try! Realm()
     let user = realm.objects(PostData.self).filter("id == \(id)")
@@ -115,3 +87,10 @@ func Delete(id: Int){
 
 
 
+// readPost나 readPostList를 할때 결과를 배열로 반환하기 위한 extension입니다.
+extension Results {
+    func toArray<T>(ofType: T.Type) -> [T] {
+        let array = Array(self) as! [T]
+        return array
+    }
+}
