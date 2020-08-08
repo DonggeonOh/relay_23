@@ -33,7 +33,7 @@ class BoostcampRelay23Tests: XCTestCase {
     
     func test_translationAPI_request() {
         let sem = DispatchSemaphore.init(value: 0)
-        TranslationAPI.shared.translate(text: "테스트용 텍스트 입니다."){ result in
+        TranslationAPI.shared.translate(text: "테스트"){ result in
             print(result)
             XCTAssertTrue(result != "")
             sem.signal()
@@ -41,4 +41,5 @@ class BoostcampRelay23Tests: XCTestCase {
         sem.wait()
     }
 
+    
 }

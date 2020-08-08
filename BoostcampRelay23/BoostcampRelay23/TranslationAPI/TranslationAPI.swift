@@ -12,15 +12,15 @@ class TranslationAPI {
     
     static let shared = TranslationAPI()
     
-    private let userId = "fbQGeroPJrh5KujDy10J"
-    private let key = "yGT4cqYk0b"
-    private var request = URLRequest(url: URL(string: "https://openapi.naver.com/v1/papago/n2mt")!)
+    private let userId = "sniuqpwqjq"
+    private let key = "qdC3nDk1s3LxwE5lbDMOe7vhIVynxFhZ2rL2pW7Q"
+    private var request = URLRequest(url: URL(string: "https://naveropenapi.apigw.ntruss.com/nmt/v1/translation")!)
     
     private init(){
         // url request 정의
         request.httpMethod = "POST"
-        request.addValue(userId, forHTTPHeaderField: "X-Naver-Client-Id")
-        request.addValue(key, forHTTPHeaderField: "X-Naver-Client-Secret")
+        request.addValue(userId, forHTTPHeaderField: "X-NCP-APIGW-API-KEY-ID")
+        request.addValue(key, forHTTPHeaderField: "X-NCP-APIGW-API-KEY")
     }
     
     
@@ -47,4 +47,3 @@ class TranslationAPI {
     
     
 }
-
