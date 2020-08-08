@@ -8,52 +8,40 @@
 
 import Foundation
 
-
 class TranslationAPI {
-
-    func callURL(){
-        let text = "test 문서입니다."
+    
+    static let shared = TranslationAPI()
+    
+    private let userId = "fbQGeroPJrh5KujDy10J"
+    private let key = "yGT4cqYk0b"
+    private var request = URLRequest(url: URL(string: "https://openapi.naver.com/v1/papago/n2mt")!)
+    
+    private init(){
+        // url request 정의
+        request.httpMethod = "POST"
+        request.addValue(userId, forHTTPHeaderField: "X-Naver-Client-Id")
+        request.addValue(key, forHTTPHeaderField: "X-Naver-Client-Secret")
+    }
+    
+    
+    func translate(text: String,_ callback: @escaping (String)->Void) {
         let param = "source=ko&target=en&text=\(text)"
         let paramData = param.data(using: .utf8)
-        let Naver_URL = URL(string: "https://openapi.naver.com/v1/papago/n2mt")
         
-        let ClientID = "fbQGeroPJrh5KujDy10J"
-        let ClientSecret = "yGT4cqYk0b"
-        
-        
-        
-        //Request
-        var request = URLRequest(url: Naver_URL!)
-        request.httpMethod = "POST"
-        request.addValue(ClientID,forHTTPHeaderField: "X-Naver-Client-Id")
-        request.addValue(ClientSecret,forHTTPHeaderField: "X-Naver-Client-Secret")
         request.httpBody = paramData
-        request.setValue(String(paramData!.count), forHTTPHeaderField: "Content-Length")
+        request.setValue(String(paramData!.count),forHTTPHeaderField: "Content-Length")
         
-        
-        //Session
-        let config = URLSessionConfiguration.default
-        let session = URLSession(configuration: config)
-        //Task
-        let task = session.dataTask(with: request) { (data, response, error) in
-            //통신 성공
+        let dataTask = URLSession.shared.dataTask(with: request){ (data, response, error) in
             if let data = data {
+                //TODO: str to json or data to json
                 let str = String(data: data, encoding: String.Encoding(rawValue: String.Encoding.utf8.rawValue)) ?? ""
-                print(str)
-                
-                DispatchQueue.main.async {
-                    print(str)
-                }
-                
-            }
-            //통신 실패
-            if let error = error {
-                print(error.localizedDescription)
+                callback(str)
+            } else {
+                callback("")
             }
         }
-        
-        task.resume()
-        
+        dataTask.resume()
     }
-
+    
 }
+
